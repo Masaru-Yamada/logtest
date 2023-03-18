@@ -4,7 +4,7 @@ import {ReactPlugin} from '@microsoft/applicationinsights-react-js';
 const reactPlugin = new ReactPlugin();
 const appInsights = new ApplicationInsights({
   config: {
-    connectionString: "YOUR CONNECTION STRING",
+    connectionString: "InstrumentationKey=56ba6121-2fce-4261-b500-bc457c2a4711;IngestionEndpoint=https://japaneast-1.in.applicationinsights.azure.com/;LiveEndpoint=https://japaneast.livediagnostics.monitor.azure.com/",
     extensions: [reactPlugin],
     extensionConfig: {},
     enableAutoRouteTracking: true,
